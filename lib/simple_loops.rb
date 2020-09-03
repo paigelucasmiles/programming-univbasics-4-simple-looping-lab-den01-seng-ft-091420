@@ -24,9 +24,9 @@ end
 
 def return_string_array(array)
   count = 0
-  array_of_strings = []
   while count < array.length do
-    puts array[count].to_s
+    array[count] = array[count].to_s
     count += 1
   end
+  puts array
 end
