@@ -27,4 +27,5 @@ def return_string_array(array)
   array_as_strings = []
   while count < array.length do
     array_as_strings.push(array[count].to_s)
+  end
 end
