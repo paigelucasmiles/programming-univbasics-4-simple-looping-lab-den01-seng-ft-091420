@@ -26,9 +26,7 @@ def return_string_array(array)
   count = 0
   array_of_strings = []
   while count < array.length do
-    array_of_strings.push[count]
+    puts array[count].to_s
     count += 1
-    binding.pry
-    puts "goodbye"
   end
 end
