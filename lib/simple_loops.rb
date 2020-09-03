@@ -24,10 +24,10 @@ end
 
 def return_string_array(array)
   count = 0
+  array_as_strings = []
   while count < array.length do
     array[count].to_s
-    array.push(count)
+    array_as_strings.push(array[count])
     count += 1
   end
-  puts array
 end
